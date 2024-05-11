@@ -152,12 +152,129 @@ This document contains a curated list of the top 10 CSS interview questions that
       ```
 
 30. **What is the purpose of the `clip-path` property in CSS?**
-    - **
+    - **Answer:** The `clip-path` property is used to clip an element's visible area to a specific shape or path. It is often used to create non-rectangular shapes or to hide parts of an element.
 
-Answer:** The `clip-path` property is used to clip an element's visible area to a specific shape or path. It is often used to create non-rectangular shapes or to hide parts of an element.
+31. **What is the CSS `grid` layout model?**
+    - **Answer:** The CSS `grid` layout model is a two-dimensional layout system used to design complex grid-based layouts with rows and columns.
 
-These additional CSS interview questions should help you further prepare for your interviews and deepen your understanding of CSS concepts.
+32. **How do you center a div horizontally and vertically in CSS grid?**
+    - **Answer:** To center a div both horizontally and vertically in CSS grid, you can use the following CSS:
+      ```css
+      .container {
+        display: grid;
+        place-items: center;
+      }
+      ```
 
-## Conclusion
-These CSS interview questions cover a range of important topics that are commonly asked during CSS interviews. Reviewing and understanding these questions will help you prepare effectively and increase your chances of success in your CSS interviews.
+33. **What is the purpose of the CSS `object-fit` property?**
+    - **Answer:** The `object-fit` property is used to specify how an `<img>` or `<video>` element should be resized to fit its content box.
+
+34. **Explain the difference between `::before` and `::after` pseudo-elements and the `:before` and `:after` selectors.**
+    - **Answer:** 
+      - `::before` and `::after`: These are CSS pseudo-elements used to insert content before and after the content of an element's actual content.
+      - `:before` and `:after`: These are CSS selectors used to target elements that come before and after another element in the DOM structure.
+
+35. **How do you create a sticky footer in CSS?**
+    - **Answer:** You can create a sticky footer by using the following CSS:
+      ```css
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .content {
+        flex: 1;
+      }
+
+      .footer {
+        flex-shrink: 0;
+      }
+      ```
+
+36. **What is the purpose of the CSS `object-position` property?**
+    - **Answer:** The `object-position` property is used to specify the alignment of an `<img>` or `<video>` element inside its content box.
+
+37. **How do you create a responsive grid layout using CSS Grid?**
+    - **Answer:** You can create a responsive grid layout using CSS Grid by defining the grid template areas and using media queries to adjust the layout based on the screen size.
+
+38. **What is the purpose of the `will-change` property in CSS?**
+    - **Answer:** The `will-change` property is used to inform the browser that an element is likely to change in the future, allowing the browser to optimize its rendering performance.
+
+39. **Explain the difference between the `:nth-child` and `:nth-of-type` selectors in CSS.**
+    - **Answer:** 
+      - `:nth-child`: Selects elements based on their position among a group of siblings.
+      - `:nth-of-type`: Selects elements based on their position among a group of siblings of the same type.
+
+40. **How do you create a custom CSS cursor?**
+    - **Answer:** You can create a custom CSS cursor by using the `url()` function to specify the path to a custom cursor image:
+      ```css
+      .custom-cursor {
+        cursor: url('custom-cursor.png'), auto;
+      }
+      ```
+
+41. **What is the purpose of the CSS `backface-visibility` property?**
+    - **Answer:** The `backface-visibility` property is used to specify whether the back face of an element should be visible when the element is rotated in 3D space.
+
+42. **How do you create a responsive navigation menu using CSS?**
+    - **Answer:** You can create a responsive navigation menu using CSS by using media queries to change the layout of the menu based on the screen size.
+
+43. **What is the purpose of the CSS `user-select` property?**
+    - **Answer:** The `user-select` property is used to control the user's ability to select text within an element.
+
+44. **How do you create a CSS-only slider?**
+    - **Answer:** You can create a CSS-only slider by using the `:checked` pseudo-class and the `~` sibling combinator to toggle the visibility of slides:
+      ```css
+      .slider {
+        display: none;
+      }
+
+      .slider:checked + .slide {
+        display: block;
+      }
+      ```
+
+45. **What is the purpose of the `contain` property in CSS?**
+    - **Answer:** The `contain` property is used to specify that an element's content should be contained within its own box, preventing it from affecting the layout of other elements.
+
+46. **How do you create a CSS animation that loops infinitely?**
+    - **Answer:** You can create a CSS animation that loops infinitely by using the `infinite` keyword in the `animation-iteration-count` property:
+      ```css
+      .box {
+        animation: myAnimation 2s infinite;
+      }
+      ```
+
+47. **What is the purpose of the `currentColor` keyword in CSS?**
+    - **Answer:** The `currentColor` keyword is used to refer to the value of the `color` property of an element, allowing you to create dynamic styles based on the element's text color.
+
+48. **How do you create a responsive table in CSS?**
+    - **Answer:** You can create a responsive table in CSS by using the `overflow-x: auto;` property on the table container to enable horizontal scrolling on small screens.
+
+49. **What is the purpose of the CSS `min-content` and `max-content` keywords?**
+    - **Answer:** The `min-content` keyword is used to specify the minimum size of an element based on its content, while the `max-content` keyword is used to specify the maximum size of an element based on its content.
+
+50. **How do you create a CSS tooltip?**
+    - **Answer:** You can create a CSS tooltip by using the `::before` pseudo-element to create the tooltip and the `content` property to specify the tooltip text:
+      ```css
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+
+      .tooltip:hover::before {
+        content: "Tooltip text";
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 3px;
+        white-space: nowrap;
+      }
+      ```
+
 
