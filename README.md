@@ -1,4 +1,5 @@
-# 50 Top CSS Interview Questions
+# 50 Top CSS Interview Questions <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Logo" width="50"/>
+
 
 ## Introduction
 This document contains a curated list of the top 10 CSS interview questions that can help you prepare for your upcoming interviews. These questions cover a range of topics from basic to advanced CSS concepts, and understanding them will greatly enhance your CSS knowledge and interview readiness.
